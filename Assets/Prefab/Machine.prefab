@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2013346294332001255
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2013346294332001253}
+  - component: {fileID: 2013346294332001252}
+  m_Layer: 0
+  m_Name: Machine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2013346294332001253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013346294332001255}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.038427453, y: -0.021846343, z: -0.02217567}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2013346294332001252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013346294332001255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d46e4fb6a122dac4abad0a50343e6f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numSlots: 5
+  minSlotSpeed: 18
+  maxSlotSpeed: 20
+  slotSlowdownStartTime: 2
+  slotSlowdownStartNext: 0.5
+  slotSlowdownInterval: 0.1
+  slotSlowdownDelta: 5
+  slotSlowestSpinSpeed: 1
+  slotPrefab: {fileID: 793916344085554231, guid: 89ba75661655738478b28b268b668212,
+    type: 3}
+  icons:
+  - iconType: 0
+    iconPrefab: {fileID: 5855094963652173939, guid: 1f02db642ccb1294fb9fa86c61b4170b,
+      type: 3}
+  - iconType: 1
+    iconPrefab: {fileID: 7546786029076949831, guid: f10ac8158f5a59a41b6214de0a664787,
+      type: 3}
+  - iconType: 2
+    iconPrefab: {fileID: 5216034734269852726, guid: 8445f736eac9a994dbaed9ba71f3fe77,
+      type: 3}
+  - iconType: 3
+    iconPrefab: {fileID: 8231248409043816624, guid: f5642655c5090b045984acde03a6862f,
+      type: 3}
+  - iconType: 4
+    iconPrefab: {fileID: 6318457686673678761, guid: bb779289785964549995055ae93814fa,
+      type: 3}
+  - iconType: 5
+    iconPrefab: {fileID: 2025892070296959012, guid: 21082683ece54194695153693143cee5,
+      type: 3}
+  - iconType: 6
+    iconPrefab: {fileID: 6951227520704679292, guid: ffe40df291bc053488d575b966510fad,
+      type: 3}
+  - iconType: 7
+    iconPrefab: {fileID: 6162045577494129196, guid: ddbf83dd006aef44e8f6fd485ff8bdbc,
+      type: 3}
+  - iconType: 8
+    iconPrefab: {fileID: 5066010724629500339, guid: afa934485a9b9f54497581714ebc0419,
+      type: 3}
+  - iconType: 9
+    iconPrefab: {fileID: 884146318845462832, guid: 26208c1e2935aec4991cd64d377595df,
+      type: 3}
